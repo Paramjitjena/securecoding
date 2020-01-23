@@ -1,0 +1,33 @@
+
+PROJECT NAME:
+  SecureCoding
+
+FONT:
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
+
+
+Header should be single module and reuseable in other apps
+
+Footer should be single module and reusable in other apps
+
+UserLogin should be single module and reusable in other apps
+
+
+API
+  https://bridgewing.net/swagger/index.html
+
+
+UserLogin
+  /api/Token/Authenticate
+
+
+Implement /api/Token/Authenticate.idleTimeLogout (value is in minutes). App must call /api/Token/Logout and return to login page
+
+
+App MUST update header AFTER successful login with /api/Token/Authenticate.businessName AND /api/Token/Authenticate.displayName
+
+
+'Forgot your username or password' does not need any functionality
+
+
+ShowPassword click should unmask text
